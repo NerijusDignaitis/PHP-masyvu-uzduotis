@@ -1,9 +1,3 @@
 <?php
-echo 'labas';
-echo 'rytas';
-
-$data = [
-    'Ieva',
-    'Tomas',
-    'Andrius'
-];
+require 'data/catalog.php';
+require 'view/index.view.php';
